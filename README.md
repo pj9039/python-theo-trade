@@ -2,8 +2,8 @@
 
 It is the API what makes using trade related API easy.
 
-Kiwoom is the API to control Kiwoom open API.
-Kiwoom provides various interfaces, but the interfaces are not matched with others.
+Kiwoom is the API to control Kiwoom open API.  
+Kiwoom provides various interfaces, but the interfaces are not matched with others.  
 This module wants to support same interfaces for trade API.
 
 I am likely waiting a any kind of contribution.
@@ -25,7 +25,24 @@ Install the framework
 Print docstrings  
 > from theo.trade import Kiwoom, KiwoomCtrl  
 > print(Kiwoom.&#95;&#95;doc&#95;&#95;)  
-> print(KiwoomCtrl.&#95;&#95;doc&#95;&#95;)
+> print(KiwoomCtrl.&#95;&#95;doc&#95;&#95;)  
+
+
+# How to setup the Kiwoom
+
+Step 1. Download  
+> Open the website, Kiwoom  
+> Find and click the 'Open API' from bottom of the page  
+> Select '키움 Open API+ 모듈 다운로드'  
+> At the page, we can get the API document, development guide, KOA Studio  
+>> The Open API Installer is downloaded and stored at 'theo\ref\trade\OpenAPISetup.exe'  
+
+Step 2. Registration  
+> At the 'Open API' page, select '상시 모의투자 신청하러 가기' and register to use the Open API without a real account.  
+> If connection with a real account, from '서비스 사용 등록/해지' tab, registration is possible.  
+
+Step 3. Install  
+> Execute the installer what is downloaded  
 
 
 # Authors

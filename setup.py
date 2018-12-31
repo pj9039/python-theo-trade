@@ -2,14 +2,14 @@ import setuptools
 
 setuptools.setup(
     name='theo-trade',
-    version='0.0.1',
-    install_requires=['theo-framework'],
+    version='0.0.2',
+    install_requires=['theo-framework', 'PyQt5'],
     url='https://github.com/TheodoreWon/python-theo-trade',
     license='MIT',
     author='Theodore Won',
     author_email='taehee.won@gmail.com',
     description='theo-trade',
-    packages=['theo', 'theo.src.trade'],
+    packages=['theo', 'theo.src.trade', 'theo.src.comp'],
     # long_description='GitHub : https://github.com/TheodoreWon/python-theo-trade',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
